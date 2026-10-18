@@ -50,6 +50,8 @@ The notebook writes every module with `%%writefile` (`schema.py`, `market_tools.
 ├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb      # submission notebook (executed)
 ├── Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb   # original agent notebook
 ├── News_Ingestion_Pipeline.ipynb                                   # original news notebook
+├── images/
+│   └── architecture_diagram.png                                    # architecture diagram
 └── README.md
 ```
 
@@ -78,7 +80,7 @@ PEP 8 checked with flake8. Blank-line, unused-variable, import, and ambiguous-na
 ## AI disclosure
 
 - **Google Gemini `gemini-3.8-flash`** (`google-genai`) is an optional runtime component (planning, news classify/extract/summarize, drafting, judging, refining), with rule-based fallbacks for every step.
-- **Grok (xAI)** for integration, debugging, and documentation formatting.
+- **Grok (xAI)** was used for integration, debugging, and documentation guidance: Colab setup, the news-relevance filters (financial NewsAPI query, post-filter, `preprocess` gate), diagnosing and fixing the \"No news retrieved\" summary bug and the failing offline test, the evidence and visualization cells, and Gemini-mode fixes (evaluator section check, combined citations, truncation handling, lesson de-duplication, prior-run context for the writer).
 
 All agent logic, tool contracts, workflow patterns, and final notebook content were reviewed, tested, modified, and executed by the team. Outputs are grounded in fetched data; no citations or metrics are invented.
 
