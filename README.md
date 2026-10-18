@@ -25,6 +25,9 @@ Built for the USD MS Applied AI final team project (AAI 520, Team 2).
 
 The notebook also prints the trace behind each function and workflow (section 6b) and plots three charts (section 6c): price with 20/50-day averages, evaluator scores per draft, and articles routed per specialist.
 
+## Architecture Diagram
+![Investment Research Agent architecture](images/architecture_diagram.png)
+
 ## How to run
 
 1. Upload `AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb` to Google Colab.
