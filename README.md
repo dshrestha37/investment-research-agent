@@ -7,9 +7,9 @@ Built for the USD MS Applied AI final team project (AAI 520, Team 2).
 
 ## Team roles
 
-- **Deepika Shrestha** — Agent core: plan, tools, prompt chain, router, evaluator–optimizer, memory.
-- **Christian Lopez** — News ingestion: Yahoo headlines, category tagging, FAISS side index.
-- **Cameron Aljilani** — Integration of both notebooks, bug fixes, news relevance filters, evidence and visualization cells, Colab wrapper, and executed runs.
+- **Deepika Shrestha** — Agent core: planning, tool layer, prompt chain, router and specialists, evaluator–optimizer, memory, and the original offline tests.
+- **Christian Lopez** — News ingestion notebook: Yahoo Finance headline fetch (now the backup news source) and the FAISS search index (Section 7)
+- **Cameron Aljilani** — Integration of both notebooks into one Colab wrapper; bug fixes and Gemini-mode fixes; news-relevance filters; regression tests; evidence and visualization cells; executed Colab runs; final editing of the report.
 
 ## What the agent does
 
