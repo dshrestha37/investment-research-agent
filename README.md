@@ -83,8 +83,9 @@ PEP 8 checked with flake8. Blank-line, unused-variable, import, and ambiguous-na
 - **Google Gemini `gemini-3.8-flash`** (`google-genai`) is an optional runtime component (planning, news classify/extract/summarize, drafting, judging, refining), with rule-based fallbacks for every step.
 - **Cameron Aljilani** Grok (xAI) was used for integration, debugging, and documentation guidance: Colab setup, the news-relevance filters (financial NewsAPI query, post-filter, `preprocess` gate), diagnosing and fixing the \"No news retrieved\" summary bug and the failing offline test, the evidence and visualization cells, and Gemini-mode fixes (evaluator section check, combined citations, truncation handling, lesson de-duplication, prior-run context for the writer).
 - **Christian Lopez:** Used Gemini (Google) for coding assistance on the news ingestion pipeline (News_Ingestion_Pipeline.ipynb), including the Yahoo Finance fetch, the classifier, and the FAISS index.
+- **Deepika Shrestha:** Used Claude (Anthropic) for coding assistance on the original agent notebook (Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb), including the module structure, tools, workflows, and offline tests.
+
 All agent logic, tool contracts, workflow patterns, and final notebook content were reviewed, tested, modified, and executed by the team. Outputs are grounded in fetched data; no citations or metrics are invented.
-- **Deepika Shrestha:** [PLACEHOLDER, CONFIRM WITH DEEPIKA] Used Claude (Anthropic) for coding assistance on the original agent notebook (Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb), including the module structure, tools, workflows, and offline tests.  
 
 ## Requirements
 
