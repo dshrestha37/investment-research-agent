@@ -47,12 +47,14 @@ The notebook writes every module with `%%writefile` (`schema.py`, `market_tools.
 ## Repository layout
 
 ```
-├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.html       # submission notebook HTML (executed)
-├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb      # submission notebook IPYNB (executed)
-├── Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb   # original agent notebook
-├── News_Ingestion_Pipeline.ipynb                                   # original news notebook
 ├── images/
 │   └── architecture_diagram.png                                    # architecture diagram
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.html       # submission notebook HTML (executed)
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb      # submission notebook IPYNB (executed)
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha_Supplemental_Report.docx     # submission supplemental report (Word.docx)
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha_Supplemental_Report.pdf      # submission supplemental report (PDF)
+├── Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb   # Deepika original agent notebook
+├── News_Ingestion_Pipeline.ipynb                                   # Christian original news notebook
 └── README.md
 ```
 
