@@ -47,7 +47,8 @@ The notebook writes every module with `%%writefile` (`schema.py`, `market_tools.
 ## Repository layout
 
 ```
-├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb      # submission notebook (executed)
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.html       # submission notebook HTML (executed)
+├── AAI520_Final_Project_Team_2_Aljilani_Lopez_Shrestha.ipynb      # submission notebook IPYNB (executed)
 ├── Investment_Research_Agent_Deepika_Shrestha_09_29_2026_Github_Upload.ipynb   # original agent notebook
 ├── News_Ingestion_Pipeline.ipynb                                   # original news notebook
 ├── images/
